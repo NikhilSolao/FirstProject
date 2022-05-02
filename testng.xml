@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite1">
+<listeners>
+	<listener class-name="main.utils.SuiteListener"></listener>
+</listeners>
+  <test name="Test Automation" >
+  <parameter name="browserName" value="chrome"/>
+  <parameter name="email" value=""/>
+  <parameter name="pass" value=""/>
+  <parameter name="reviewURL" value="https://wallethub.com/profile/13732055i"/>
+  <parameter name="profileName" value="Test Insurance Company"/>
+  <parameter name="fbURL" value="https://www.facebook.com/"/>
+  <parameter name="fbid" value=""/>
+  <parameter name="fbpass" value=""/>
+  <parameter name="statusMsg" value="Hello World"/>
+    <classes>
+    	<class name="test.Assignment1" />
+       	<class name="test.Assignment2" />
+    </classes>
+  </test>
+</suite>
